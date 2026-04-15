@@ -99,12 +99,13 @@
             // 
             // btnCalculate
             // 
+            btnCalculate.BackColor = Color.Lime;
             btnCalculate.Location = new Point(180, 129);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(293, 23);
             btnCalculate.TabIndex = 7;
             btnCalculate.Text = "Calculate";
-            btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.UseVisualStyleBackColor = false;
             btnCalculate.Click += btnCalculate_Click_1;
             // 
             // Form1
