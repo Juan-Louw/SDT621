@@ -58,7 +58,6 @@
             txtEfficiency.Name = "txtEfficiency";
             txtEfficiency.Size = new Size(147, 23);
             txtEfficiency.TabIndex = 2;
-            txtEfficiency.TextChanged += textBox3_TextChanged;
             // 
             // label1
             // 
@@ -68,7 +67,6 @@
             label1.Size = new Size(80, 15);
             label1.TabIndex = 3;
             label1.Text = "Distance (km)";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -78,7 +76,6 @@
             label2.Size = new Size(104, 15);
             label2.TabIndex = 4;
             label2.Text = "Cargo Weight (kg)";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
