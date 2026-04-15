@@ -40,21 +40,21 @@
             // 
             // txtDistance
             // 
-            txtDistance.Location = new Point(326, 16);
+            txtDistance.Location = new Point(392, 126);
             txtDistance.Name = "txtDistance";
             txtDistance.Size = new Size(147, 23);
             txtDistance.TabIndex = 0;
             // 
             // txtWeight
             // 
-            txtWeight.Location = new Point(326, 54);
+            txtWeight.Location = new Point(392, 164);
             txtWeight.Name = "txtWeight";
             txtWeight.Size = new Size(147, 23);
             txtWeight.TabIndex = 1;
             // 
             // txtEfficiency
             // 
-            txtEfficiency.Location = new Point(326, 92);
+            txtEfficiency.Location = new Point(392, 202);
             txtEfficiency.Name = "txtEfficiency";
             txtEfficiency.Size = new Size(147, 23);
             txtEfficiency.TabIndex = 2;
@@ -62,34 +62,40 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(180, 24);
+            label1.BackColor = Color.WhiteSmoke;
+            label1.BorderStyle = BorderStyle.Fixed3D;
+            label1.Location = new Point(244, 129);
             label1.Name = "label1";
-            label1.Size = new Size(80, 15);
+            label1.Size = new Size(82, 17);
             label1.TabIndex = 3;
             label1.Text = "Distance (km)";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(180, 62);
+            label2.BackColor = Color.WhiteSmoke;
+            label2.BorderStyle = BorderStyle.Fixed3D;
+            label2.Location = new Point(244, 167);
             label2.Name = "label2";
-            label2.Size = new Size(104, 15);
+            label2.Size = new Size(106, 17);
             label2.TabIndex = 4;
             label2.Text = "Cargo Weight (kg)";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(180, 100);
+            label3.BackColor = Color.WhiteSmoke;
+            label3.BorderStyle = BorderStyle.Fixed3D;
+            label3.Location = new Point(244, 205);
             label3.Name = "label3";
-            label3.Size = new Size(140, 15);
+            label3.Size = new Size(142, 17);
             label3.TabIndex = 5;
             label3.Text = "Fuel Efficiency (L/100km)";
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(185, 168);
+            lblResult.Location = new Point(249, 273);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(0, 15);
             lblResult.TabIndex = 6;
@@ -97,7 +103,7 @@
             // btnCalculate
             // 
             btnCalculate.BackColor = Color.Lime;
-            btnCalculate.Location = new Point(180, 129);
+            btnCalculate.Location = new Point(244, 234);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(293, 23);
             btnCalculate.TabIndex = 7;
@@ -109,6 +115,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCalculate);
             Controls.Add(lblResult);

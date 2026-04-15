@@ -2,7 +2,7 @@ namespace ClassActivity2
 {
     public partial class Form1 : Form
     {
-        private const string CompanyID = "ECO-Logistics";
+        private const string CompanyID = "ECO-2026";
         private double BaseTaxRate = 1.15;
 
         public Form1()
