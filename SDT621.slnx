@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="ClassActivity1/ClassActivity1.csproj" Id="f5d37e28-00b9-4c27-a2f8-17a10751f830" />
+  <Project Path="ClassActivity2/ClassActivity2.csproj" Id="c7e50685-2816-4c7b-a8a0-af11846775c9" />
   <Project Path="GUIPractice/GUIPractice.csproj" Id="56db02b5-4839-4228-92f8-c3ae0876dcc1" />
   <Project Path="Test1/Test1.csproj" />
   <Project Path="Thuesday/Thuesday.csproj" Id="ae580118-dce1-45a8-930a-e3def2eab8c2" />
