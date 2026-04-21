@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="ClassActivity1/ClassActivity1.csproj" Id="f5d37e28-00b9-4c27-a2f8-17a10751f830" />
   <Project Path="ClassActivity2/ClassActivity2.csproj" Id="c7e50685-2816-4c7b-a8a0-af11846775c9" />
+  <Project Path="ClassActivity3/ClassActivity3.csproj" Id="ef674b14-7bd9-4706-9aa3-c7431dcd798e" />
   <Project Path="GUIPractice/GUIPractice.csproj" Id="56db02b5-4839-4228-92f8-c3ae0876dcc1" />
   <Project Path="LoanApp/LoanApp.csproj" Id="fa10abb2-22fe-42d1-b621-65b938d051b7" />
   <Project Path="Test1/Test1.csproj" />
