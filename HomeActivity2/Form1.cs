@@ -16,18 +16,18 @@ namespace HomeActivity2
                 int num2 = Convert.ToInt32(txtGeuss2.Text);
                 int num3 = Convert.ToInt32(txtGeuss3.Text);
 
-                int win1 = random.Next(1, 11);
-                int win2 = random.Next(1, 11);
-                int win3 = random.Next(1, 11);
+                int winNum1 = random.Next(1, 11);
+                int winNum2 = random.Next(1, 11);
+                int winNum3 = random.Next(1, 11);
 
                 listBox1.Items.Clear();
-                listBox1.Items.Add($"Winning numbers: {win1}, {win2}, {win3}");
+                listBox1.Items.Add($"Winning numbers: {winNum1}, {winNum2}, {winNum3}");
 
                 int matches = 0;
 
-                if (num1 == win1 || num1 == win2 || num1 == win3) matches++;
-                if (num2 == win1 || num2 == win2 || num2 == win3) matches++;
-                if (num3 == win1 || num3 == win2 || num3 == win3) matches++;
+                if (num1 == winNum1 || num1 == winNum2 || num1 == winNum3) matches++;
+                if (num2 == winNum1 || num2 == winNum2 || num2 == winNum3) matches++;
+                if (num3 == winNum1 || num3 == winNum2 || num3 == winNum3) matches++;
 
                 if (matches == 3)
                 {
