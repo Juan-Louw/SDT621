@@ -4,4 +4,5 @@
   <Project Path="GUIPractice/GUIPractice.csproj" Id="56db02b5-4839-4228-92f8-c3ae0876dcc1" />
   <Project Path="Test1/Test1.csproj" />
   <Project Path="Thuesday/Thuesday.csproj" Id="ae580118-dce1-45a8-930a-e3def2eab8c2" />
+  <Project Path="VotingSystem/VotingSystem.csproj" Id="3467459f-1030-47e9-b25f-51d46189045e" />
 </Solution>
