@@ -5,7 +5,7 @@ namespace HomeActivity1
         readonly Random random = new Random();
         int winNumber;
         int attemptsLeft;
-        const int MaxAttempts = 3;
+        const int maxAttempts = 3;
 
         public Form1()
         {
@@ -16,7 +16,7 @@ namespace HomeActivity1
         private void StartNewGame() 
         {
             winNumber = random.Next(1, 21);
-            attemptsLeft = MaxAttempts;
+            attemptsLeft = maxAttempts;
             lblAttempts.Text = $"Attempts left: {attemptsLeft}";
             lblResults.Text = string.Empty;
             btnPlay.Enabled = true;
